@@ -47,6 +47,7 @@ import { connect } from 'react-redux';
 import { history } from '../../_helpers';
 import {useParams} from 'react-router-dom';
 import classnames from "classnames";
+import GoogleAd from 'components/GoogleAd';
 import { surveyActions, alertActions, questionbankActions } from '../../_actions';
 import { store } from 'react-notifications-component';
 import UserHeader from "../components/Headers/UserHeader";
@@ -223,6 +224,7 @@ class SurveyPage extends React.Component{
                       placeholder="Comment"
                       type="text"
                     />
+                     <GoogleAd slot="394738798" timeout={1000} classNames="page-bottom" />
                     <hr className="my-4" />         
                     <Row>
                       <div className="update ml-auto mr-auto">

@@ -139,3 +139,5 @@ export function unregister() {
       });
   }
 }
+
+// for hotreload : "start": "webpack-dev-server --env.ENVIRONMENT=development --content-base src/ --mode development --watch --watch-poll && node server.js",

@@ -46,7 +46,7 @@ const routes = [
   },
   {
     path: "/survey/result",
-    name: "Survey Result",
+    name: "Survey Results",
     icon: "ni ni-bullet-list-67 text-blue",
     component: SurveyResult,
     layout: "/admin"
